@@ -1,4 +1,48 @@
-<?php
-session_start();
-require 'vendor/autoload.php';
-require 'route.php';
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CourseMatch</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body topmargin="0" leftmargin="0">
+  <script src="http://www.w3school.com.cn/jquery/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button_register").click(function(){
+        alert("The page is not ready!");
+      });
+
+      $(".button_signin").click(function(){
+        alert("The page is not ready!");
+      });
+    });
+  </script>
+  
+<div class= "header" style="width:100%; height:80px; background-color:green;">
+  <div class= "title" style="font-size:50px; height:200px;float:left;">
+      <a href= "index.html" id="tit" style=" text-decoration:none; color:white; "><b style="margin-left: 20px;">CourseMatch</b></a>
+  </div>
+  <div class= "button_signin" style="float:right">
+    <form action="index.html" method="get">
+      <button style="margin-top: 20px; margin-right: 20px; border-radius:5px; width:75px;height:40px;font-size:16px;">Sign in</button>
+    </form>
+  </div>
+
+  <div class= "button_register" style=" float:right">
+    <form action="index.html" method="get">
+      <button style="margin-top: 20px; margin-right: 20px; border-radius:5px; width:75px;height:40px;font-size:16px;">Sign up</button>
+    </form>
+  </div>
+</div>
+<p>
+  <div id="tt" style="font-size:18px; asign-text:center;">
+    <b>You can find which course your friend is taking.</b><br><br>
+    <b>And who is taking the same course with you!</b><br><br>
+    <b>Starts NOW!</b>
+  </div>
+</p>
+</body>
+<footer style="bottom:0; position: absolute;">
+  <p style="margin-left:20px;">create by EricHsu</p>
+</footer>
